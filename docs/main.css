@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body,
+html {
+    margin:0;
+    padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+	position: absolute;
+	top: 15%;
+	left: 20%;
+}
+
+.wrapper ol {
+	font-size:25px;
+	line-height:300%;
+	padding:0;
+	margin:0;
+}
+.wrapper ol li {
+	margin-bottom: 2px; /** For Ie6 & 7 */
+}
+
+a:link, a:visited, a:hover, a:active {
+	text-decoration: none;
+	border-bottom: 1px solid #888;
+	padding-bottom: 0px;
+	color: black;
+}
+
+
+h1 {
+	color: #a6a2a2;
+	padding:0;
+	margin:0;
+	font-weight:normal;
+	font-size:11px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+h1 .pref {
+	color: #000; 
+}
